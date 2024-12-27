@@ -101,10 +101,10 @@ footer{
 
 @media (max-width: 768px) {
     section#img02 {
-        background-attachment: scroll; /* Desativa o efeito parallax em telas pequenas */
+        position: relative;
     }
 
 section#img02 {
-    background-attachment: scroll;
+        position: relative;
     }
 }
