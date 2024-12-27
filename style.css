@@ -69,6 +69,7 @@ section.imagem{
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
@@ -76,20 +77,15 @@ section.imagem > p{
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
-
 }
 
 section#img01 {
     background-image: url('imagens/background001.jpg');
     background-position: right center;
-    background-attachment: fixed;
 }
 
 section#img02{
     background-image: url('imagens/background002.jpg');
-    background-position: right center;
-    background-attachment: fixed;
-    
 }
 
 footer{
@@ -97,14 +93,4 @@ footer{
     color: white;
     text-align: center;
     font-size: 10px;
-}
-
-@media (max-width: 768px) {
-    section#img02 {
-        position: relative;
-    }
-
-section#img02 {
-        position: relative;
-    }
 }
