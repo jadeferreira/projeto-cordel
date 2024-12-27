@@ -98,3 +98,13 @@ footer{
     text-align: center;
     font-size: 10px;
 }
+
+@media (max-width: 768px) {
+    section#img02 {
+        background-attachment: scroll; /* Desativa o efeito parallax em telas pequenas */
+    }
+
+section#img02 {
+    background-attachment: scroll;
+    }
+}
